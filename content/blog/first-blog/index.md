@@ -1,6 +1,6 @@
 ---
 title: First Blog
-date: "2020-01-07T12:41:00.123Z"
+date: "2020-01-07"
 description: "This is my first blog. Yay!"
 ---
 
