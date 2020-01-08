@@ -1,7 +1,21 @@
 ---
-title: First Blog
-date: "2020-01-07"
-description: "This is my first blog. Yay!"
+title: New Decade. New Goals. Same me.
+date: "2020-01-08"
+description: "Introductory blog for my new hobby!"
 ---
 
-This is my first blog.
+![Test](https://images.unsplash.com/photo-1477738224882-4eba549a81ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80)
+
+I've always wanted to write blogs since when I was studying in college. I remember reading a blog of a blogger who is also a former schoolmate of mine back in high school. We never really get along, in fact, I dont remember having a conversation with at all. She was this girl filled with confidence which kinda set a bad impression on me for some reason. Anyway, I found her website built on wordpress which was a trend back in the day cause of how easy it is to setup and build your own blog site, portfolio, and more. She had plenty of blogs some of which were posted on Quote Catalog, rather a big achievement for a blogger. 
+
+Writing blogs is not for me to gain popularity or whatever, this is honestly for me to improve vocabulary and improve my thinking cause lately I feel like I slowly become dumb af. So yeah, I would probably write anything on my mind and hopefully someone who miraculously find my blogs educate me on how to improve this skill. Feel free to laugh and criticize my blogs. I don't give a fuck. Lol.
+
+My main goal for this year is to be financially independent. I've come across this subreddit called r/phinvenst which is basically a community for filipinos who wanted to invest or have already invested. Since I realized how hard it is to earn money, I was hooked up with the sub that moment. Reading posts from other people asking how can they start investing and others sharing how they started. Amazingly, a lot of people share their experiences and give advice on what they could do in their situation. I took the chance and shared a post sharing how dumb I am on this matter, how can I start, and what are the things that I need to know before getting myself into investing. I was genuinely happy how people answered on my post like they care about me (sana all) which ultimately motivated me to start. But.... Most of them adviced that I should build my Emergency Fund first before investing, emphasizing that it is best to have money aside in case of emergencies and only emergencies should the money be spent. Currently, I still don't have a bank account yet. I've been researching a lot generally about banks and their offers, I have yet to pick a bank but right now I got my eye on BDO Unibank Inc. because of the location and mobile accessibility.
+
+Aparrently, it is advisable to set aside up to 6 to 9 months worth of monthly expenses for the Emergency Fund. My cousin who also knew about this was able to use the money when him and his daughter got hospitalized, he didn't have to borrow money or apply for a loan which would just get higher plus the interest over time. To earn more income, I've planned to work on side projects as a freelancer. This way I can improve my cash flows and hopefully achieve my target by the end of the year. 
+
+Last December I decided to set a weekly goal for myself, though inconsistent and does not always end up successful. It was a good start and I can proudly say that I was able to push myself to learn new things. It started at work when my senior developer at work and I were having a chat related to our profession. He was throwing these terms left and right that I've lost count how many "WTF is that?" I thought to myself. Software Development roadmap these days is so broad that it is easy to get overwhelmed. Fortunately, I was able to learn atleast the concept of some of the terms and technologies that were hostile to me. 
+
+I've been working for my current employer for 4 months now, believe it or not that is also how long I've been unproductive at work. I was never assigned to a project so far, last december there was a client though but for some reason my employer cancels that deal. So here I am, feeling useless everyday at work. I know some people will say that I am lucky, but no. I'm experiencing Impostor Syndrom because of this, probably because how weak I am mentally also. I'm starting to doubt my own skills that anytime they give me a project I won't be able to do it. Or some day, someone will just tell me that I'm fired. I feel left behind by my peers in terms of experience and skills. But hey, I earn money sitting 9 hours a day doing whatever what I want to do. I hope this month I'm finally assigned to a project.
+
+Overall, I want to be productive this year where I look back and I tell myself that I've come a long way to get there and be proud of myself. Build my confidence. Less procrastination. And finally let my heart be happy. Uwu. Thanks! Have a great day!
