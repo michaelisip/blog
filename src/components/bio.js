@@ -5,13 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React, { Fragment } from "react"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
 
-const Bio = () => {
+import './components.css'
+
+const Bio = ({ location }) => {
   const data = useStaticQuery(graphql`
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
@@ -33,33 +35,66 @@ const Bio = () => {
   `)
 
   const { author, social } = data.site.siteMetadata
+  const rootPath = `${__PATH_PREFIX__}/`
+
+  console.log(location)
+  console.log(rootPath)
+  
   return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(2.5),
+    <div 
+      id="description"
+      className="flex-column mr-md-5"
+      style={{ 
+        width: location === rootPath ? '35%' : '100%'
       }}
     >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
+      {/* <h2
+        id="header-name"
         style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
+          fontFamily: `Montserrat, sans-serif`,
+          marginTop: 0,
         }}
-        imgStyle={{
-          borderRadius: `50%`,
+      >
+        <Link
+          style={{
+            boxShadow: `none`,
+            textDecoration: `none`,
+            color: `inherit`,
+          }}
+          to={`/`}
+        >
+          {title}
+        </Link>
+      </h2> */}
+
+      <div
+        style={{
+          display: `flex`,
+          marginBottom: rhythm(2.5),
         }}
-      />
-      <p>
-        Written by <strong>{author}</strong> who lives and works in the Philippines procrasinating as usual.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should motivate him on Twitter
-        </a>
-      </p>
+      >
+        {/* <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={author}
+          className="d-none d-md-block"
+          style={{
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            minWidth: 50,
+            borderRadius: `100%`,
+          }}
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        /> */}
+        <p id="info">
+          Written by <strong>{author}</strong> who lives and works in the Philippines procrasinating as usual.
+          {` `}
+          <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer">
+            You should motivate him on Twitter
+          </a>
+        </p>
+      </div>
     </div>
   )
 }

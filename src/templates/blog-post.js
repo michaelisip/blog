@@ -45,7 +45,7 @@ class BlogPostTemplate extends React.Component {
             }}
           />
           <footer>
-            <Bio />
+            <Bio location={this.props.location.pathname} />
           </footer>
         </article>
 
